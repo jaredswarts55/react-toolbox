@@ -30,7 +30,7 @@ export interface SidebarProps extends DrawerCommonProps {
   /**
    * Classnames object defining the component style.
    */
-  theme?: SidebarTheme;
+  theme?: any;
   /**
    * Width in standard increments (1-12) or percentage (25, 33, 50, 66, 75, 100)
    * @default 5

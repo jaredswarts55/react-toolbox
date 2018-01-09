@@ -39,7 +39,7 @@ export interface NavDrawerProps extends DrawerCommonProps {
   /**
    * Classnames object defining the component style.
    */
-  theme?: NavDrawerTheme;
+  theme?: any;
 }
 
 export class NavDrawer extends React.Component<NavDrawerProps, {}> { }
